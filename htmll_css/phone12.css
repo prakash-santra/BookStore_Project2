@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* nav  */
+#nav ul li a {
+    margin: 1px 6px;
+    padding: 0px;
+}
+/* section */ 
+
+.sec h1{
+    font-size: 1.4rem;
+    margin:0px;
+    font-size: 29px;
+}
+.sec p{
+     font-size: 1.1rem;
+    margin: 12px 5px;
+    padding: 0px; 
+}
+
+  /* Catalog Section */
+  .catalog::before{
+    height: 2590px;
+
+  }
+  .cathead {
+    margin-top: 8px;
+  
+}
+  /* button */
+  .bookingbtn h3{
+    margin: 22px 11%;
+    padding: 0px;
+
+  }
+/* about us  */
+.heading h2{
+  padding-bottom: 0px;
+}
+.heading p{
+  margin: 9px;
+  font-size: 1rem;
+}
+.heading img {
+  height: 62px;
+  margin: 0px 4px;
+}
+/* contact us   */
+.contactbox{
+  width: 82%;
+
+}

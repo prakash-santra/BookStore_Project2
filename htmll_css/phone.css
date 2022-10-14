@@ -1,0 +1,50 @@
+/* navigation bar */
+#nav{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#nav ul li a{
+    margin: 20px 8px;
+}
+.logo img{
+    margin: 0px 110px;
+}
+
+/* section */
+.sec{
+padding: 0px;
+margin: 26px 86px;
+}
+.sec::before{
+    height:100%;
+}
+.sec h1{
+    font-size: 2.4rem;
+    margin:21px;
+    font-size: 41px;
+}
+.sec p{
+    font-size: 1.5rem;
+    margin: 100px 0px;
+    padding: 0px 2px;
+    
+}
+
+ /* Catalog Section */
+ #container{
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+ }
+ .cathead{
+    margin-top: 393px;
+ }
+ .contactbox{
+     margin-top: 46px;
+ }
+ .catbox{
+    margin: 26px 2px;
+ }
+ .catalog::before{
+    height: 2126px;
+ }

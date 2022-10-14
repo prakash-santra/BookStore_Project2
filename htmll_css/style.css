@@ -1,0 +1,255 @@
+/* CSS reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navigation */
+#nav{
+    display: flex;
+    position: sticky;
+    top: -6px;
+}
+
+/* navigation logo and pic */
+.logo img{
+    height: 73px;
+    width: 68px;
+    border-radius: 651px
+}
+/* navigation bar - ls */
+#nav ul{
+    display: flex;
+}
+#nav::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#nav ul li{
+    list-style: none;
+}
+#nav ul li a{
+    display: block;
+    margin: 20px 29px;
+    padding: 5px 13px; 
+    color: rgb(255, 255, 255);  
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition-property: all;
+    transition-duration:0.8s;
+    /* transition-timing-function: ease-in; */
+}
+#nav ul li a:hover{
+    border-radius: 10px;
+    border: 1px solid rgb(43, 38, 38);
+    color: black;
+    background-color: white;
+   
+}
+
+/* section */ 
+.sec::before{
+        content: "";
+        position: absolute;
+        background: url(istockphoto-530435469-1024x1024.jpg)no-repeat center center/cover;
+        height:100%;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+        z-index: -1;
+        opacity: 0.6;
+    }
+    .sec{
+        display: flex;
+        color: rgb(13, 46, 59);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 26px 189px;
+        margin-top: 0p;
+    padding: 85px 160px;
+    
+
+    }
+    .sec h1{
+        font-size: 3rem;
+        margin: 28px 11px;
+    }
+    .sec p{
+        font-size: 1.29rem;
+        margin: 21px 8px;
+        padding: 0px 113px;
+       
+    }
+
+    /* button style*/
+
+    .btn {
+        font-size: 23px;
+        padding: 0px 49px;
+        border-radius: 11px;
+        cursor: pointer;
+        transition: all;
+        transition-duration: 0.5s;
+    }
+    .btn:hover{
+        background-color: rgb(15, 15, 124);
+        color: white;
+        box-shadow:2px 2px 1px rgb(104, 139, 255);
+    }
+
+    /* Catalog Section */
+
+    .cathead{
+        /* height: 123px;
+        width: fit-content;
+        margin: auto; */
+        text-align: center;
+        margin-top: 127px;
+        padding: 35px;
+        font-size: 2.3rem;
+    }
+    .catbox img{
+        height: 134px;
+    }
+    #container{
+        display: flex;
+        flex-direction: row;
+    }
+    .catbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        background-color: #fadfdf;
+        margin: 26px;
+        padding: 41px;
+        border-radius: 20px;
+    }
+    .catbox h2{
+        font-size: 2rem;
+        text-align: center;
+        margin: 30px;
+    }
+    .catalog::before{
+        content: "";
+        position: absolute;
+        height: 1045px;;
+        width: 100%;
+        background: url(paper-g159b8ef4d_1280.jpg)no-repeat center center/cover;
+        z-index: -2;
+        opacity: 0.6;
+    }
+    .bookingbtn h3{
+        display: flex;
+        border:2px solid red;
+        border-radius: 5px;
+        align-items: center;
+        justify-content: center;
+        margin:0px 38% ;
+        padding: 5px;
+    font-size: 1.8rem;
+    transition: all;
+        transition-duration:0.3s;
+        
+    }
+    .bookingbtn h3:hover{
+        background-color: rgb(15, 15, 124);
+        color: white; 
+    }    
+    .bookingbtn img{
+        display: block;
+        height: 155px;
+       margin: auto;
+        border-radius: 99%;   
+    }
+    /* about us  */
+.heading{
+    text-align: center;
+}
+.heading img{
+    height: 85px;
+    margin: 0px 9px;
+}
+.heading h2{
+    font-size: 3rem;
+    margin: 7px;
+    margin-top: 100px;
+    padding: 33px;
+}
+.heading p{
+    margin: 35px;
+    padding: 1px;
+    font-size: 1.8rem;
+}
+
+.about::before{
+content: "";
+position: absolute;
+background: url(bg_service.jpg)no-repeat center center/cover;
+height: 380px;
+width: 100%;
+z-index: -1;
+opacity: 0.5;
+
+}
+
+/* contact us */
+.contact::before{
+    content: "";
+    position: absolute;
+    height: 77%;
+    width: 100%;
+    background: url(contact\ us.jpg)no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.6;
+    margin-top: -18px;
+}
+.contactus h2{
+    text-align: center;
+    font-size: 2.5rem;
+    /* margin-top: 64px; */
+    padding: 35px;
+}
+    .contactbox {
+        border: 2px solid brown;
+        border-radius: 24px;
+        height: fit-content;
+        width: 31%;
+        display: block;
+        margin: auto;
+        margin-top: 81px;
+        padding: 26px 0px;
+        background-color: rgb(211, 211, 211);
+         opacity: 0.8;
+    }
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+}
+.form input{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 4px;
+    width: 74%;
+    border-radius: 8px;
+    background-color: rgb(255, 228, 228);
+}
+.form textarea{
+width: 123px;
+background-color: rgb(229, 231, 231);
+
+}
